@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GIS</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body><br>
+	<center><img src="logo.png" width="200" ></center>
+	  <header>
+      <nav>
+        <ul>
+       <li><a href="index.html">首页</a></li>
+			<li><a href="1.html">GIS在地学中的应用</a></li>
+          <li class="dropdown">
+           <a href="2.html">地学的主要分支</a>
+            <div class="dropdown-content">
+              <a href="#attraction2">地质学</a>
+              <a href="#attraction2">地球物理学</a>
+              <a href="#attraction3">海洋学</a>
+            </div>
+          </li>
+     <li><a href="3.html">未来发展方向</a></li>
+
+            <li><a>给我留言</a></li>
+
+        </ul>
+      </nav>
+    </header>
+<div class="slideshow-container">
+  <div class="slideshow">
+    <img src="images/1.jpg" alt="Image 1">
+    <img src="images/2.jpg" alt="Image 2">
+    <img src="images/3.jpg" alt="Image 3">
+  </div>
+  
+  <div class="dots-container">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div>
+
+	<div class="main"><br><br>
+    <center><table width="1000px"><tr><td><img src="images/8.jpg" width="500" height="350px"></td><td bgcolor="#F4FFFF"><p style="line-height:30px">GIS（地理信息系统）是一种用于捕捉、存储、管理、分析和展示地理数据的技术和工具。它结合了地理学、地图学和计算机科学，可以帮助我们理解和解释地球上的空间关系。
+
+GIS使用计算机硬件和软件来处理和分析地理数据。它可以接收来自各种来源的地理数据，包括卫星图像、航空照片、传感器和地面调查。通过对这些数据进行处理、整合和分析，GIS可以生成地图、图表和报告，以帮助决策者做出更明智的决策。GIS在各个领域都有广泛的应用，包括城市规划、环境管理、交通规划、应急响应、农业、地质勘探等。它可以帮助我们了解地理现象之间的关系，发现模式和趋势，以及预测未来的变化。</p></td></tr></table></center>
+		<div class="guanyu">
+			<div class="renwu">
+				<img src="images/7.jpg">
+			</div>
+			
+			
+			<div class="jieshao">
+				<p style="text-indent:2em">地学（地球科学）是研究地球的物理、化学和生物过程的学科。它包括地质学、地球物理学、气象学、海洋学、环境科学等子学科。地学的研究范围涵盖了地球的内部结构、地壳演化、地震活动、气候变化、生物多样性等方面。
+
+GIS在地学中的应用非常广泛。它可以帮助地学家收集和分析地球上的各种数据，包括地质构造、地貌特征、气候模式、海洋循环等。通过将地学数据与地理空间信息相结合，GIS可以提供更全面、准确的地球科学研究结果，并支持环境保护、资源管理和灾害预防等领域的决策制定。</p>
+			</div>
+		</div>
+		<div class="main-right">
+			
+			<div class="xiangce">
+				<div class="title">应用</div>
+				<marquee><img src="images/6.jpg">
+				<img src="images/4.jpg">
+				<img src="images/5.jpg"><img src="images/6.jpg"><img src="images/4.jpg">
+				<img src="images/6.jpg">
+				</marquee>
+                <div class="rizhi">
+				<div class="title">GIS的基本原理</div>
+				<ul>
+					<li>
+						<p><a>地理数据：GIS基于地理数据进行分析和展示。</a></p>
+					</li>
+					<li>
+						<p><a>数据捕捉和获取：GIS使用各种技术和方法来捕捉和获取地理数据。</a></p>
+					</li>
+					<li>
+						<p><a>数据存储和管理：GIS使用数据库或文件系统来存储和管理地理数据。</a></p>
+					</li>
+					<li>
+						<p><a>数据分析和处理：GIS具有强大的数据分析和处理功能。</a></p>
+					</li>
+					<li>
+						<p><a>可视化和展示：GIS可以将地理数据以图形化的方式展示出来，例如地图、图表和报告。</a></p>
+					</li>		
+				</ul>
+			</div>
+			</div>
+		</div>
+        
+	</div>
+	<div class="footer">
+		<p>GIS</p>
+	</div>
+</body><script src="1.js"></script>
+</html>
