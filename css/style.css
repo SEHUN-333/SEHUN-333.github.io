@@ -1,0 +1,202 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+body{font-family:"微软雅黑",arial;font-size:14px;color:#000; background:url(../images/s.jpg); background-size:100% 100%}
+a{list-style:none; color:white}
+.banner{width:1100px;margin:auto; }
+.banner img{width:1100px;height:350px;display:block;}
+.main{width:1100px;margin:auto;overflow:hidden; background-color:#EFE}
+.guanyu{width:400px;float:left;margin-left:25px;margin-top:20px;}
+.guanyu .renwu img{display:block;margin:auto;width:300px;height:240px;margin-top:10px;}
+.guanyu .mingzi{text-align:center;margin-top:20px}
+.guanyu .mingzi img{vertical-align:middle;}
+.guanyu .dizhi{text-align:center;margin-top:10px;}
+.guanyu .jieshao{width:400px;margin:auto;color:#000000;line-height:2;margin-top:15px;}
+.main-right{width:562px;float:left;margin-left:36px;margin-top:45px;}
+.rizhi{width:560px;overflow:hidden;padding-bottom:10px; margin-top:20px}
+.rizhi .title{height:32px;line-height:32px;background:#000;font-weight:bold;padding-left:10px; color:#FFF}
+.rizhi ul{width:540px;margin:auto;}
+.rizhi li{height:26px;line-height:26px;margin:auto;border-bottom:1px dotted #666;font-size:12px;}
+.rizhi li p{width:406px;float:left;margin-left:20px;}
+.rizhi li a{color:#666;}
+.rizhi li a:hover{color:#000;}
+.rizhi li span{color:#666;}
+.xiangce{width:560px;overflow:hidden;padding-bottom:10px;margin-top:10px;}
+.xiangce .title{height:32px;line-height:32px;background:#000;font-weight:bold;padding-left:10px; color:#fff;}
+.xiangce img{width:176px;height:210px;margin:5px;}
+.footer{width:1100px;height:54px;background: #000;margin:auto;overflow:hidden;}
+.footer p{text-align:center;margin-top:20px;font-size:12px; color:#FFF}
+.wenzhang .weizhi{height:20px;line-height:20px;text-align:right;background:#ffffdb;font-size:12px;padding-right:10px;}
+.wenzhang .weizhi a{color:#000;}
+.wenzhang .weizhi a:hover{text-decoration:underline;}
+.wenzhang .text{padding:0 30px;}
+.wenzhang .text h3{line-height:40px;text-align:center;margin-top:10px;}
+.wenzhang .text p{font-size:12px;text-indent:24px;line-height:2;margin-bottom:10px;}
+h3{background-color:#8b0000; color:white; width:200px; font-size:16px}
+.head{ width:1100px; height:auto; margin:0 auto;}
+ nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    nav li {
+      float: left;
+    }
+    
+    nav a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    
+    nav a:hover {
+      background-color: #8b0000; text-decoration:none;
+    }
+    
+    /* 添加下拉菜单样式 */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: black;
+      min-width: 160px;
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+ header {
+      background-color: black; width:1080px; margin:0 auto;
+      padding: 10px;
+      color: #8b0000;
+    }
+.slideshow-container {
+  width: 1100px; margin:0 auto;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slideshow {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slideshow img {
+  width: 33.33%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dots-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+ .container {
+            display: flex;
+            height: auto;
+        }
+        
+        .sidebar {
+            width: 200px;
+            background-color: green;
+            color: white;
+        }
+        
+        .content {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+        }
+        
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .sidebar li {
+            padding: 10px;
+        }
+        
+        .sidebar li:hover {
+            background-color: darkgreen;
+            cursor: pointer;
+        }
+ form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: inline-block;
+      width: 100px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 300px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    select {
+      width: 308px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="file"] {
+      margin-top: 5px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="reset"] {
+      background-color: #ccc;
+      margin-left: 10px;
+    }
